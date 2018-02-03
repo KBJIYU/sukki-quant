@@ -6,6 +6,6 @@ setup(
     py_modules = ['suQuant'],
     author = 'sukki',
     author_email = 'admin@sukki.org',
-    url = 'sukki.org',
+    url = 'http://sukki-quant.readthedocs.io/en/latest/',
     description = 'sukki-quant',
 )

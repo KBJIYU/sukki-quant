@@ -14,4 +14,5 @@
 # ==============================================================================
 
 import unittest
-import suQuant.server.server as server
+
+from suQuant.server.server import Server
