@@ -7,7 +7,7 @@
 
 # suQuant
 
-[![docs](https://readthedocs.org/projects/sukki-quant/badge/?version=latest)](http://sukki-quant.readthedocs.io/en/latest/)
+[![docs](https://readthedocs.org/projects/sukki-quant/badge/?version=latest)](http://sukki-quant.readthedocs.io/en/latest/) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/057e08eb6ddb45759d04c36b8bb0ee9d)](https://www.codacy.com/app/fatfingererr/sukki-quant?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sukki/sukki-quant&amp;utm_campaign=Badge_Grade)
 
 suQuant 是一個以強化學習為基礎的量化分析系統，基於 Python 語言開發的輕量級框架
 
