@@ -10,7 +10,7 @@ jobs:
       - run:
           name: send message to sukki bot
           command: |
-            git clone --bare git@github.com:sukki/sukki-quant.git
+            git clone --bare https://github.com/sukki/sukki-quant.git
             cd sukki-quant
             git log -n 1 --pretty=format:'%h,%an,%ar,%s' > git_log
             value=`cat git_log`
