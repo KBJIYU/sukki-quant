@@ -12,6 +12,6 @@ jobs:
           command: |
             git clone --bare https://github.com/sukki/sukki-quant.git ~/sukki-quant-bare
             cd ~/sukki-quant-bare
-            git log -n 1 --pretty=format:'%h,%an,%ar,%s' > git_log
+            git log -n 1 --pretty=format:"[ %h ] %ai %n %s %n %n %b" > git_log
             value=`cat git_log`
             curl -s -X POST https://api.telegram.org/bot539671764:AAH8TATXc3Jm84foXN_sQwYa5gXP59jUinY/sendMessage -d chat_id=-248535918 -d text="$value"
