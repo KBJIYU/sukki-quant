@@ -1,0 +1,13 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.6.1
+
+    working_directory: ~/repo
+
+    steps:
+      - run:
+          name: send message to sukki bot
+          sudo apt install curl
+          curl -i -X GET https://api.telegram.org/bot539671764:AAH8TATXc3Jm84foXN_sQwYa5gXP59jUinY/sendMessage?chat_id=-248535918&text=Hello+World
