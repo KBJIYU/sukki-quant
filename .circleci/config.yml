@@ -10,8 +10,8 @@ jobs:
       - run:
           name: send message to sukki bot
           command: |
-            git clone --bare https://github.com/sukki/sukki-quant.git
-            cd sukki-quant
+            git clone --bare https://github.com/sukki/sukki-quant.git ~/sukki-quant-bare
+            cd ~/sukki-quant-bare
             git log -n 1 --pretty=format:'%h,%an,%ar,%s' > git_log
             value=`cat git_log`
             curl -s -X POST https://api.telegram.org/bot539671764:AAH8TATXc3Jm84foXN_sQwYa5gXP59jUinY/sendMessage -d chat_id=-248535918 -d text="$value"
