@@ -9,5 +9,6 @@ jobs:
     steps:
       - run:
           name: send message to sukki bot
-          sudo apt install curl
-          curl -i -X GET https://api.telegram.org/bot539671764:AAH8TATXc3Jm84foXN_sQwYa5gXP59jUinY/sendMessage?chat_id=-248535918&text=Hello+World
+          command: |
+            sudo apt install curl
+            curl -i -X GET https://api.telegram.org/bot539671764:AAH8TATXc3Jm84foXN_sQwYa5gXP59jUinY/sendMessage?chat_id=-248535918&text=Hello+World
