@@ -1,9 +1,4 @@
 > :wrench: :wrench: 本專案正在初始化建置中 :wrench: :wrench:
->
-> 相關討論請見 Trello 的 [討論區](https://trello.com/b/RU9OrXkW)  ※ 最新討論：2018-02-04
->
-> :wrench: :wrench: 您也可以透過 [邀請連結](https://trello.com/invite/b/RU9OrXkW/de81923651824f92d3ba0cdcf10e0948/sukki-quant-%E8%A6%8F%E5%8A%83%E8%A8%8E%E8%AB%96%E5%8D%80) 加入看板討論 :wrench: :wrench:
->
 
 # suQuant
 

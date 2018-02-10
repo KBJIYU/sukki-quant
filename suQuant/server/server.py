@@ -12,11 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ==============================================================================
+from suQuant.server.price import price
+from suQuant.server.order import Order
+
+import numpy as np
 
 class Server(object):
     """
-    Basic server class.
+    基礎的 Server 物件
     """
 
-    def __str__(self):
-        raise NotImplementedError
+    def __init__(self):
+        pass
+        # TODO 放 Price move 後的東西
+        # self.ask_buffer = np.zeros(shape=(1,2)) # 放最近的ask
+        # self.bid_buffer = np.zeros(shape=(1,2)) # 放最近的bid

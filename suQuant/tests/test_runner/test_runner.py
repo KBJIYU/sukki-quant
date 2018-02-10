@@ -13,8 +13,7 @@ class TestRunner(unittest.TestCase):
     aRunner = Runner()
 
     def test_loadData(self):
-        now = datetime.datetime.now()
-        print(now)
+        test_loadData
 
 if __name__ == '__main__':
     unittest.main()

@@ -13,6 +13,8 @@
 # limitations under the License.
 # ==============================================================================
 
+import datetime
+
 class Runner(object):
     """
     TODO 執行訓練的物件
@@ -39,10 +41,13 @@ class Runner(object):
         self.forward_end    = []                           # 前測結束時間
         # self.execution    = 1MOHLC                       # 回測 TICK 尺度，先預設 1MOHLC
         self.deposit        = 100000                       # 回測總資金
-        self.time_frame     = M15                          # 回測尺度
+        self.time_frame     = 0 #M15                          # 回測尺度
         self.market         = ["EURUSD","EURJPY","EURGBP"] # 回測需要使用到的市場資料
-        self.server         = server                       # Server 物件，主要模擬基本的券商伺服器
-        self.trader         = trader                       # Trader 物件，主要模擬高階抽象的策略邏輯，包含 RL Algo + Report
+        self.server         = 0 #server                       # Server 物件，主要模擬基本的券商伺服器
+        self.trader         = 0 #trader                       # Trader 物件，主要模擬高階抽象的策略邏輯，包含 RL Algo + Report
+
+    def loadData(self,start,end):
+        pass
 
     def run_backward(self):
         """
